@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    // "lib": [],
+    "rootDir": "./client",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "baseUrl": "./client",
+    "paths": {
+      "pkg": ["../"],
+      "sample-project": ["../pkg"]
+    },
+    "rootDirs": [
+      "./client",
+      "./pkg"
+    ],
+    // "typeRoots": [],
+    // "types": [],
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
